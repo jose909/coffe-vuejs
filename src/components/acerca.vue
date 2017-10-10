@@ -27,7 +27,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <p>Nam a convallis libero. Morbi bibendum, tortor ut placerat ornare, dui ligula pellentesque risus, sed tincidunt metus arcu a dui.</p>
 
-                <p> Nam a convallis libero. Morbi bibendum, tortor ut placerat ornare, dui ligula pellentesque risus, sed tincidunt metus arcu a dui. Suspendisse imperdiet suscipit blandit. Pellentesque eget metus sed odio fringilla varius a vitae risus. Donec ac lobortis urna</p>
+                <p> Nam a convallis libero. Morbi bibendum, tortor ut placerat ornare, dui ligula pellentesque risus, sed tincidunt metus arcu a dui. Suspendisse imperdiet suscipit blandit.</p>
              </article>
           </div>
         </section>
@@ -139,10 +139,10 @@ header .textos {
   left: 0;
   top:-50px;
   z-index: 0;
-  box-shadow: 0px 0px 15px rgba(0.0.0,.35);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
 }
 
-.main .acerca-de .foto {
+.main .acerca-de .foto img {
   vertical-align: top;
   width: 100%;
 }
@@ -151,10 +151,10 @@ header .textos {
   padding: 40px;
   width: 50%;
   position: relative;
-  top: 150px;
+  top: 200px;
   z-index: 1;
   float: right;
-  box-shadow: 0px 0px 15px rgba(0.0.0,.35);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
 
 }
 

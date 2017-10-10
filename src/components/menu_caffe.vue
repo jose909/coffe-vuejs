@@ -177,4 +177,27 @@ font-size: 16px;
 color: #676767;
 clear: both;
 }
+
+.galeria{
+  overflow: hidden;
+}
+
+.galeria .foto{
+  width: 25%;
+  float: left;
+}
+
+.galeria .foto img {
+  width: 100%;
+  vertical-align: top;
+  opacity: .7;
+}
+
+.galeria .foto img:hover {
+  opacity: 1;
+  -webkit-transition: all .3s ease; ;
+  -o-transition: all .3s ease; 
+  transition: all .3s ease; 
+}
+
 </style>
