@@ -12,13 +12,39 @@
                 <p class="precio">$15</p>
                 <p class="descripcion">Praesent gravia, augu sit amet gignissim rutrum, enim telus suscit risus.</p>
               </div>
-
                <div class="platillo">
                   <p class="nombre">Sed sageittis nisl dictum</p>
                   <p class="precio">$15</p>
                   <p class="descripcion">Praesent gravia, augu sit amet gignissim rutrum, enim telus suscit risus.</p>
               </div>
-
+              <div class="platillo">
+                <p class="nombre">Sed sageittis nisl dictum</p>
+                <p class="precio">$15</p>
+                <p class="descripcion">Praesent gravia, augu sit amet gignissim rutrum, enim telus suscit risus.</p>
+              </div>
+                <div class="platillo">
+                <p class="nombre">Sed sageittis nisl dictum</p>
+                <p class="precio">$15</p>
+                <p class="descripcion">Praesent gravia, augu sit amet gignissim rutrum, enim telus suscit risus.</p>
+              </div>
+            </article>
+            <article>
+              <p class="categoria">De Tomar</p>
+              <div class="platillo">
+                <p class="nombre">Sed sageittis nisl dictum</p>
+                <p class="precio">$15</p>
+                <p class="descripcion">Praesent gravia, augu sit amet gignissim rutrum, enim telus suscit risus.</p>
+              </div>
+               <div class="platillo">
+                  <p class="nombre">Sed sageittis nisl dictum</p>
+                  <p class="precio">$15</p>
+                  <p class="descripcion">Praesent gravia, augu sit amet gignissim rutrum, enim telus suscit risus.</p>
+              </div>
+              <div class="platillo">
+                <p class="nombre">Sed sageittis nisl dictum</p>
+                <p class="precio">$15</p>
+                <p class="descripcion">Praesent gravia, augu sit amet gignissim rutrum, enim telus suscit risus.</p>
+              </div>
               <div class="platillo">
                 <p class="nombre">Sed sageittis nisl dictum</p>
                 <p class="precio">$15</p>
@@ -93,8 +119,9 @@ body {
   margin: auto;
   overflow: hidden;
 }
+/* ----- ---- MENU-PLATILLO ---- ---- */
 .menu-platillo {
-  padding-top: 570px;
+  padding-top: 670px;
   margin-bottom: 50px;
 }
 
@@ -111,5 +138,43 @@ body {
   background: transparent;
   padding: 10px;
   overflow: hidden;
+}
+
+.menu-platillo article{
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+
+.menu-platillo .categoria{
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.menu-platillo .platillo{
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 4px dotted #000;
+  overflow: hidden;
+}
+
+.menu-platillo .nombre{
+  font-size: 20px;
+  margin-bottom: 15px;
+  float: left;
+}
+
+.menu-platillo .precio{
+  font-size: 20px;
+  margin-bottom: 15px;
+  float: right;
+}
+
+.menu-platillo .descripcion{
+font-size: 16px;
+color: #676767;
+clear: both;
 }
 </style>
