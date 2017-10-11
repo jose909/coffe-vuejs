@@ -57,10 +57,7 @@ export default {
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Open Sans", Arial, Sans-serif;
-  font-size: 13;
-}
+
 .contenedor {
   width: 90%;
   max-width: 1000px;

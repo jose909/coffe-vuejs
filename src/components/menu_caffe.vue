@@ -100,7 +100,7 @@ export default {
 }
 </script>
 
-<style>
+<style >
 *{
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -108,10 +108,7 @@ export default {
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Open Sans", Arial, Sans-serif;
-  font-size: 16;
-}
+
 
 .contenedor {
   width: 90%;
